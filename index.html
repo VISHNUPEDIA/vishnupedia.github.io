@@ -25,6 +25,14 @@ body, html {background: #272727;  margin: 0; padding: 0; width: 100%; height: 10
 html, body { margin: 0; padding: 0; width: 100%; max-width: 100%; min-width: 100%; height: 100%;  overflow-x: hidden;}
 }
 
+/*OPENINGVIDEO*/
+#video-container {position: fixed; /* Ensure video covers entire viewport */ top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: #000000; /* Background color to fill gaps */ z-index: 9999; /* Ensure video container is on top */}
+.video {width: 100%; height: 100%; object-fit: contain; /* Adjust to fit the video inside the container without cropping */ display: block; margin: 0 auto; /* Center the video horizontally */}
+.hidden {display: none;}
+@media (min-width: 768px) 
+{#desktop-video {display: block;}#mobile-video {display: none;}}
+@media (max-width: 767px) and (max-height: 1024px) 
+{#desktop-video {display: none;}#mobile-video {display: block;}.video {object-fit: contain; /* Adjust to fit the video inside the container without cropping */}}
 
 
 
@@ -72,7 +80,10 @@ p {display: none;}
 
 <body oncontextmenu="return false">
 
-
+<div id="video-container" class="hidden">
+<video id="desktop-video" class="video" src="LOGO\INTROVIDEO.mp4" autoplay muted draggable="false" ></video>
+<video id="mobile-video" class="video" src="LOGO\INTROVIDEO.mp4" autoplay muted draggable="false" ></video>
+</div>
         
 
         
@@ -106,7 +117,57 @@ p {display: none;}
 <center><p>Welcome to <p1>VISHNUPEDIA</p1>, Kindly Select your Viewing Perspective to Explore</p></center>
     
 
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var desktopVideo = document.getElementById('desktop-video');
+        var mobileVideo = document.getElementById('mobile-video');
+        var content = document.getElementById('content');
+        var navbar = document.querySelector('nav');
+    
+        var video;
+    
+        // Function to check and play video based on screen size
+        function playVideo() {
+            if (window.innerWidth >= 768) {
+                video = desktopVideo;
+            } else {
+                video = mobileVideo;
+            }
+    
+            if (video && video.canPlayType) {
+                video.addEventListener('ended', function() {
+                    var videoContainer = document.getElementById('video-container');
+                    if (videoContainer) {
+                        videoContainer.style.display = 'none'; // Hide video container
+                    }
+                    
+                    if (content) {
+                        content.classList.remove('hidden'); // Show content
+                    }
+    
+                    if (navbar) {
+                        navbar.style.display = 'flex'; // Show navbar
+                    }
+    
+                    document.body.style.overflow = 'auto'; // Enable scrolling
+                });
+    
+                video.play();
+    
+                // Ensure scrolling is enabled after a timeout as a fallback
+                setTimeout(function() {
+                    document.body.style.overflow = 'auto';
+                }, (video.duration || 0) * 1000 + 1000); // Adding 1 second buffer to the video duration
+            } else {
+                console.error('Video playback not supported.');
+            }
+        }
+    
+        // Call playVideo initially and on window resize
+        playVideo();
+        window.addEventListener('resize', playVideo);
+    });
+    </script>
 
 
 
