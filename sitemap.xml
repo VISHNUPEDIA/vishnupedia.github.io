@@ -4,84 +4,91 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 
 <url>
   <loc>https://vishnupedia.github.io/</loc>
-  <lastmod>2025-08-01T15:45:10+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>1.00</priority>
+<image:image> <image:loc>https://vishnupedia.github.io/VISHNUPIC1/31.jpeg</image:loc> <image:caption>Raj Vishnu Kumar - the Owner of Vishnupedia</image:caption> </image:image> 
+<image:image> <image:loc>https://vishnupedia.github.io/VISHNUPIC1/29.jpeg</image:loc> <image:caption>Raj Vishnu Kumar Stunning Image with his Bike FZ v3 Dark Knight</image:caption> </image:image> 
+<image:image> <image:loc>https://vishnupedia.github.io/VISHNUPIC1/30.jpeg</image:loc> <image:caption>Vishnu Kumar from Virtual Tech Gurus Private Limited</image:caption> </image:image> 
+<image:image> <image:loc>https://vishnupedia.github.io/VISHNUPIC1/5.jpg</image:loc> <image:caption>Raj Vishnu Kumar in Childhood</image:caption> </image:image> 
+<image:image> <image:loc>https://vishnupedia.github.io/VISHNUPIC1/1.jpeg</image:loc> <image:caption>Cute Baby Vishnu Kumar</image:caption> </image:image> 
+
 </url>
 <url>
   <loc>https://vishnupedia.github.io/professional/</loc>
-  <lastmod>2025-08-01T15:46:24+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/general/</loc>
-  <lastmod>2025-08-01T15:46:46+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/professional/career.html</loc>
-  <lastmod>2025-08-01T15:46:24+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/tamil/</loc>
-  <lastmod>2025-08-01T16:33:39+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/english/</loc>
-  <lastmod>2025-08-01T16:30:18+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/professional/index.html</loc>
-  <lastmod>2025-08-01T15:46:24+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/tamil/knowledge.html</loc>
-  <lastmod>2025-08-01T16:33:38+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/tamil/career.html</loc>
-  <lastmod>2025-08-01T16:33:39+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/tamil/gallery.html</loc>
-  <lastmod>2025-08-01T16:33:39+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/english/knowledge.html</loc>
-  <lastmod>2025-08-01T16:30:18+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/english/career.html</loc>
-  <lastmod>2025-08-01T16:30:18+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/english/gallery.html</loc>
-  <lastmod>2025-08-01T16:30:18+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/tamil/index.html</loc>
-  <lastmod>2025-08-01T16:33:39+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://vishnupedia.github.io/english/index.html</loc>
-  <lastmod>2025-08-01T16:30:18+00:00</lastmod>
+  <lastmod>2025-08-29T18:00:00+00:00</lastmod>
   <priority>0.41</priority>
 </url>
+
 
 
 </urlset>
